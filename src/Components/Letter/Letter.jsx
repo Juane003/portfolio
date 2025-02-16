@@ -12,6 +12,7 @@ const Letter = () => {
     setIsHovering(false);
   };
   
+  
 
   return (
     <div
@@ -22,6 +23,7 @@ const Letter = () => {
         onMouseEnter={handleOnMouseEnter}
         onMouseLeave={handleOnMouseOut}
       >
+        
         <div className="h-84 w-20 bg-amber-400 rounded-tl-md rounded-bl-md"></div>
         <div className="flex flex-col">
           <div className="h-16 w-48 bg-amber-400 mb-1 flex justify-center items-center rounded-tr-md rounded-br-md">
